@@ -161,10 +161,13 @@ a {
   color: var(--clr-neutral-700);
 }
 
+.card-details h2:hover {
+  color: var(--clr-primary-400);
+}
+
 @media (min-width: 375px) {
   .card-details h2 {
     font-size: var(--fs-900);
-    color: var(--clr-primary-400);
   }
 }
 
